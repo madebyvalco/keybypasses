@@ -20,7 +20,7 @@ for _,v in pairs(game:GetService("CoreGui"):GetChildren()) do
     if v:FindFirstChild("KeyUI") then
     v.KeyUI:GetPropertyChangedSignal("Visible"):Connect(function()
         wait(1)
-        v.KeyUI.TextBox.Text = getgenv().key
+        v.KeyUI.TextBox.Text = key
     end)
     end
 end
