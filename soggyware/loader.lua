@@ -19,7 +19,7 @@ request({
 end)
 
 
-if string.find(req, "404") then return end
+if string.find(req, "404: Not Found") then return end
 loadstring(req)()
 
 
