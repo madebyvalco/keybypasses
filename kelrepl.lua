@@ -21,7 +21,7 @@
         dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity     dsc.gg/grimcity                                                                                                                                                                                                                                                                             
 ]]--
 
-getx = clonefunction(getgenv)
+local getx = clonefunction(getgenv)
 
 getx().A = {}
 
