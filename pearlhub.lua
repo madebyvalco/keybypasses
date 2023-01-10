@@ -10,7 +10,6 @@ old = hookmetamethod(game, "__namecall", newcclosure(function(self, url, ...)
     return old(self, url, ...)
 end))
 
-
 game:GetService("CoreGui").ChildAdded:Connect(function(v)
    if v.Name == "Key" then 
     wait()
