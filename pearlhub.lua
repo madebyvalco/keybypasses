@@ -3,7 +3,7 @@ local old
 old = hookmetamethod(game, "__namecall", newcclosure(function(self, url, ...)
     local method = getnamecallmethod()
     if method == "HttpGet" then
-        if string.find(url, "verify") then
+        if string.find(url, "/main/key") then
             return "grimcity"
         end
     end
