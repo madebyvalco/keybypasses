@@ -5,7 +5,7 @@ local Window = ZapLib:MakeWindow({Name = "ZapHub | 🍄STEEP STEPS | Cracked by 
 --Notifying
 ZapLib:MakeNotification({
 	Name = "Welcome to ZapHub!",
-	Content = "Discord: dsc.gg/grimcity
+	Content = "Discord: dsc.gg/grimcity"
 	Image = "rbxassetid://12102363922",
 	Time = 10
 })
